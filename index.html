@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="コンクリート用砂の枯渇問題を、原因・影響・解決策・先行研究から学ぶ解説サイト">
+<title>コンクリートを支える砂 — 資源の危機と解決策</title>
+<style>
+:root{--ink:#172b35;--muted:#5d7078;--sand:#e8c98e;--sand2:#f6edda;--sea:#287b82;--sea2:#dcefee;--leaf:#557c61;--paper:#fbfaf6;--line:#e4e3dc;--white:#fff;--accent:#b66d3c}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,"Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;line-height:1.8}a{color:#176a76;text-underline-offset:3px}.wrap{width:min(1120px,92%);margin:auto}.topbar{position:sticky;top:0;z-index:5;background:#fbfaf6ee;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:12px 0}.brand{font-weight:800;letter-spacing:.04em}.navlinks{display:flex;gap:16px;flex-wrap:wrap;font-size:.88rem}.navlinks a{text-decoration:none;color:var(--muted)}.hero{background:linear-gradient(120deg,#173b45 0%,#24636a 58%,#b68b53 100%);color:white;padding:76px 0 66px;overflow:hidden;position:relative}.hero:after{content:"";position:absolute;width:560px;height:560px;border:1px solid #ffffff25;border-radius:50%;right:-110px;top:-220px;box-shadow:0 0 0 55px #ffffff0b,0 0 0 110px #ffffff08}.eyebrow{color:#f0d9aa;text-transform:uppercase;letter-spacing:.16em;font-size:.78rem;font-weight:700}.hero h1{font-size:clamp(2.3rem,6vw,4.6rem);line-height:1.2;max-width:760px;margin:14px 0}.hero p{max-width:680px;color:#e5eeee;font-size:1.08rem}.hero-visual{display:flex;gap:8px;align-items:end;margin-top:38px;height:100px;max-width:520px}.grain{border-radius:60% 40% 50% 45%;background:linear-gradient(145deg,#f5dba8,#bb8c4f);box-shadow:inset -5px -7px 9px #7a583b55}.grain:nth-child(1){width:60px;height:45px}.grain:nth-child(2){width:90px;height:66px}.grain:nth-child(3){width:44px;height:37px}.grain:nth-child(4){width:120px;height:84px}.grain:nth-child(5){width:55px;height:50px}.grain:nth-child(6){width:75px;height:60px}.hero-note{font-size:.78rem;color:#dce8e7;margin-top:8px}.section{padding:66px 0}.section.alt{background:#f1f3ee}.kicker{color:var(--sea);font-size:.78rem;font-weight:800;letter-spacing:.13em}.section h2{font-size:clamp(1.7rem,3vw,2.5rem);line-height:1.35;margin:8px 0 18px}.lead{color:var(--muted);max-width:820px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}.card{background:white;border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 5px 20px #1b33300a}.card h3{margin:8px 0;font-size:1.12rem}.card p{margin:8px 0;color:var(--muted);font-size:.94rem}.icon{width:42px;height:42px;border-radius:13px;background:var(--sand2);display:grid;place-items:center;font-size:1.35rem}.statrow{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:28px 0}.stat{background:var(--sea2);border-radius:16px;padding:20px}.stat strong{display:block;font-size:clamp(1.6rem,4vw,2.5rem);color:#155c65;line-height:1.2}.stat span{font-size:.86rem;color:#42666a}.note{border-left:4px solid var(--accent);background:#fff7e9;padding:16px 18px;border-radius:0 12px 12px 0;color:#594b3a;margin:22px 0}.diagram{background:white;border:1px solid var(--line);border-radius:20px;padding:24px;margin:28px 0;overflow:hidden}.diagram h3{margin-top:0}.flow{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap}.node{background:#f5ead5;border:1px solid #e7d2ac;border-radius:13px;padding:13px 16px;text-align:center;min-width:130px;font-weight:700}.node.blue{background:#e2f1ef;border-color:#c5e0dc}.arrow{font-size:1.5rem;color:var(--sea)}.bars{display:grid;gap:13px;margin:18px 0}.barrow{display:grid;grid-template-columns:125px 1fr 70px;gap:12px;align-items:center;font-size:.9rem}.bar{height:15px;background:#ece9df;border-radius:20px;overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,#d4aa68,#287b82);border-radius:20px}.barrow b{text-align:right}.two{display:grid;grid-template-columns:1fr 1fr;gap:22px}.pill{display:inline-block;border-radius:99px;padding:4px 10px;background:var(--sea2);color:#1c666d;font-size:.78rem;font-weight:700}.tablewrap{overflow-x:auto;margin-top:22px}table{border-collapse:collapse;width:100%;min-width:680px;background:white;border:1px solid var(--line);border-radius:14px;overflow:hidden}th,td{padding:13px 15px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;font-size:.9rem}th{background:#eaf1ed;color:#284b4d}td{color:#52646a}.timeline{border-left:2px solid #c9d9d4;margin:25px 0 0 10px;padding-left:25px}.timeline article{position:relative;margin:0 0 24px}.timeline article:before{content:"";position:absolute;left:-32px;top:7px;width:12px;height:12px;background:var(--sea);border:3px solid var(--paper);border-radius:50%}.timeline h3{margin:0 0 5px}.timeline p{margin:0;color:var(--muted)}.refs li{margin:12px 0;color:var(--muted);font-size:.92rem}.refs a{overflow-wrap:anywhere}.footer{background:#173b45;color:#dce8e7;padding:30px 0;font-size:.85rem}.footer a{color:#f1d9aa}.backtop{display:inline-block;margin-top:18px;color:#f1d9aa}@media(max-width:760px){.nav{align-items:flex-start;flex-direction:column}.navlinks{gap:10px}.hero{padding:55px 0}.grid,.two{grid-template-columns:1fr}.statrow{grid-template-columns:1fr}.barrow{grid-template-columns:95px 1fr 55px}.section{padding:48px 0}}
+
+.photo-panel{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:26px 0}
+.illustration{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.illustration svg{display:block;width:100%;height:auto;background:#e8f2ef}
+.illustration figcaption{padding:12px 16px;color:var(--muted);font-size:.85rem}
+.callout-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:22px 0}
+.research-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px;margin:16px 0}
+.research-card h3{margin:0 0 8px}
+.research-card .meta{color:var(--sea);font-size:.82rem;font-weight:700}
+.research-card ul{margin:8px 0 0;padding-left:1.2rem;color:var(--muted)}
+.source-tag{font-size:.78rem;color:#42666a;background:#eaf3f0;padding:3px 8px;border-radius:99px}
+.small{font-size:.86rem;color:var(--muted)}
+@media(max-width:760px){.photo-panel,.callout-grid{grid-template-columns:1fr}}
+
+.site-search{background:#fff;border-bottom:1px solid var(--line);padding:16px 0}
+.search-inner{width:min(1120px,92%);margin:auto}
+.site-search label{font-weight:800;display:block;margin-bottom:7px}
+.search-row{display:flex;gap:8px}
+.search-row input{flex:1;min-width:0;border:1px solid #b8c8c5;border-radius:10px;padding:12px 14px;font:inherit;background:#fff;color:var(--ink)}
+.search-row button{border:0;border-radius:10px;background:#1f666d;color:#fff;padding:0 18px;font:inherit;font-weight:700;cursor:pointer}
+#searchStatus{margin:7px 0 0;color:var(--muted);font-size:.85rem}
+.quick-search{border:1px solid #cbd9d5;background:#f5faf8;color:#1b6268;border-radius:99px;padding:3px 9px;cursor:pointer;margin-right:4px}.search-results{display:grid;gap:7px;margin-top:10px}
+.search-result{border:1px solid var(--line);border-radius:10px;padding:9px 12px;background:#fbfaf6}
+.search-result a{font-weight:700;text-decoration:none}
+.search-result p{margin:3px 0 0;color:var(--muted);font-size:.85rem}
+mark.search-hit{background:#ffe49a;color:#34270e;padding:0 2px;border-radius:3px}
+.glossary-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:20px}
+.glossary-item{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px}
+.glossary-item h3{font-size:1rem;margin:0 0 5px}
+.glossary-item p{margin:0;color:var(--muted);font-size:.9rem}
+.method-list{counter-reset:steps;display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:20px 0}
+.method-item{background:#fff;border:1px solid var(--line);border-radius:14px;padding:17px}
+.method-item b{color:var(--sea)}
+@media(max-width:760px){.glossary-grid,.method-list{grid-template-columns:1fr}.search-row{flex-direction:column}.search-row button{padding:10px}}
+</style>
+</head>
+<body id="top">
+<header class="topbar"><div class="wrap nav"><div class="brand">SAND × CONCRETE</div><nav class="navlinks"><a href="#overview">問題の概要</a><a href="#causes">原因</a><a href="#impacts">環境への影響</a><a href="#solutions">解決策</a><a href="#research">先行研究・対策</a><a href="#glossary">用語集</a><a href="#references">参考文献</a></nav></div></header>
+
+<section class="site-search" aria-label="サイト内検索">
+ <div class="search-inner">
+  <label for="siteSearch">サイト内の語句を検索</label>
+  <div class="search-row">
+   <input id="siteSearch" type="search" placeholder="例：再生細骨材、河床低下、JIS、UNEP" autocomplete="off">
+   <button type="button" id="searchClear">クリア</button>
+  </div>
+  <p class="small">検索例：<button type="button" class="quick-search" data-q="再生細骨材">再生細骨材</button> <button type="button" class="quick-search" data-q="河床低下">河床低下</button> <button type="button" class="quick-search" data-q="JIS">JIS</button> <button type="button" class="quick-search" data-q="UNEP">UNEP</button></p>
+  <p id="searchStatus" aria-live="polite">ページ内の見出し・本文・表を検索できます。Enterキーでも検索できます。</p>
+  <div id="searchResults" class="search-results" aria-live="polite"></div>
+ </div>
+</section>
+
+<main>
+<section class="hero"><div class="wrap"><div class="eyebrow">RESOURCE · ENVIRONMENT · CONSTRUCTION</div><h1>コンクリートを支える<br>砂が足りなくなる？</h1><p>建物や道路に欠かせないコンクリート。その材料である「砂」は、どこにでもあるように見えて、実は品質や採取場所に条件があります。砂資源の問題を、原因から解決策まで整理します。</p><div class="hero-visual" aria-label="砂粒をイメージした図"><i class="grain"></i><i class="grain"></i><i class="grain"></i><i class="grain"></i><i class="grain"></i><i class="grain"></i></div><div class="hero-note">図：砂粒をイメージした装飾図</div></div></section>
+<section class="section" id="overview"><div class="wrap"><div class="kicker">01 / OVERVIEW</div><h2>問題の概要</h2><p class="lead">「砂の枯渇」は、地球上の砂がすべてなくなるという意味ではありません。コンクリート用の細骨材として適した品質の砂を、環境への負荷を抑えながら安定して確保しにくくなる問題です。</p>
+<div class="statrow"><div class="stat"><strong>約400〜500億t</strong><span>世界で年間に利用される砂・砂利の推計量（UNEP 2019）</span></div><div class="stat"><strong>約3倍</strong><span>過去20年間で増加した砂・砂利需要（UNEP 2019）</span></div><div class="stat"><strong>細骨材</strong><span>コンクリートのすき間を埋め、材料を構成する砂</span></div></div>
+<div class="note"><b>数字の読み方：</b>上記は世界全体の砂・砂利の利用量に関する推計であり、コンクリート用の砂だけを数えた数字ではありません。</div>
+<div class="diagram"><h3>コンクリートは何からできている？</h3><div class="flow"><div class="node">セメント</div><div class="node">水</div><div class="node">細骨材<br><small>砂</small></div><div class="node">粗骨材<br><small>砂利・砕石</small></div><div class="arrow">→</div><div class="node blue">コンクリート</div></div><p class="lead">砂は粒と粒の間を埋め、コンクリートの性質や施工のしやすさに関わります。</p></div>
+<h3>なぜ「どんな砂でもよい」わけではない？</h3><div class="grid"><div class="card"><div class="icon">◌</div><h3>粒の大きさ・分布</h3><p>粒度分布が適切でないと、すき間や水量、材料分離などに影響します。</p></div><div class="card"><div class="icon">◇</div><h3>粒の形・表面</h3><p>角張り方や表面状態によって、流動性や水の必要量が変わります。</p></div><div class="card"><div class="icon">⌕</div><h3>不純物・化学的性質</h3><p>泥分、塩化物、有機物、吸水率、反応性などを確認する必要があります。</p></div></div>
+<h3>砂の種類と特徴</h3><div class="tablewrap"><table><thead><tr><th>種類</th><th>特徴</th><th>利用上のポイント</th></tr></thead><tbody><tr><td>河川砂</td><td>自然の流水で粒がある程度整えられている</td><td>採取しすぎると河床や生態系に影響</td></tr><tr><td>海砂</td><td>海岸・海底に存在する砂</td><td>塩化物を適切に管理・除去する必要</td></tr><tr><td>砕砂</td><td>岩石を破砕して製造する砂</td><td>粒形・粒度の調整、製造時のエネルギーに配慮</td></tr><tr><td>砂漠砂</td><td>風で磨かれ、細かく丸い粒子が多い</td><td>単独使用では粒度・粒形が適さない場合があり、調整が必要</td></tr><tr><td>再生細骨材</td><td>解体コンクリートなどから回収</td><td>付着モルタル、吸水率、塩化物等の品質管理が重要</td></tr></tbody></table></div>
+
+<div class="diagram"><h3>細骨材を受け入れるときに確認する主な品質</h3>
+<p class="small">具体的な試験項目・判定値は、適用するJIS、発注仕様書、コンクリートの用途によって異なります。</p>
+<div class="tablewrap"><table><thead><tr><th>確認項目</th><th>何を確認するか</th><th>なぜ重要か</th></tr></thead><tbody>
+<tr><td>粒度・粒度分布</td><td>粒の大きさの構成、粗粒・細粒の割合</td><td>空隙、単位水量、ワーカビリティー、材料分離に関係</td></tr>
+<tr><td>粒形・表面状態</td><td>粒子の丸み、角張り、表面の粗さ</td><td>粒子同士のかみ合わせや流動性、水量に関係</td></tr>
+<tr><td>微粒分・泥分</td><td>細かい粉や粘土分の量・性質</td><td>水量やペーストとの付着、耐久性に影響する場合</td></tr>
+<tr><td>塩化物</td><td>塩分の含有量</td><td>鉄筋腐食のリスク管理に関係</td></tr>
+<tr><td>有機不純物・異物</td><td>木片、腐植、その他の混入物</td><td>凝結・強度・品質の安定性に影響する場合</td></tr>
+<tr><td>吸水率・密度</td><td>骨材の空隙や水を吸う性質</td><td>配合計算、表面水補正、単位水量の管理に関係</td></tr>
+<tr><td>アルカリシリカ反応性等</td><td>骨材とセメント中のアルカリとの反応可能性</td><td>長期的な膨張・ひび割れなどの耐久性リスクに関係</td></tr>
+</tbody></table></div>
+</div>
+<div class="diagram"><h3>「砂の供給」は自然の土砂収支で考える</h3>
+<div class="flow"><div class="node">山地・斜面の侵食</div><div class="arrow">→</div><div class="node">支流・河川からの運搬</div><div class="arrow">→</div><div class="node">河口・沿岸への供給</div></div>
+<p class="lead">河川や海岸の砂は、上流から運ばれ、途中で堆積・移動しながら成り立っています。採取が自然の供給・移動量を長期的に上回ると、河床や海岸の砂が減る可能性があります。ダム、砂防施設、河道改修、洪水の変化なども土砂の移動に影響するため、採取量だけを見ても持続可能性は判断できません。</p>
+</div>
+
+</div></section>
+<section class="section alt" id="causes"><div class="wrap"><div class="kicker">02 / CAUSES</div><h2>問題が起きる主な原因</h2><p class="lead">需要の増加だけでなく、自然の砂が運ばれる仕組みや、コンクリートに使える品質の条件も関係しています。</p><div class="grid"><div class="card"><div class="icon">🏙️</div><h3>人口増加・都市化</h3><p>住宅、道路、橋、港湾などの建設が増え、コンクリートに使う骨材の需要が大きくなります。</p></div><div class="card"><div class="icon">🌊</div><h3>河川砂への依存</h3><p>河川砂は利用しやすい一方、ダム・砂防施設・河川改修などで土砂の供給や移動が変化し、採取可能量にも影響します。</p></div><div class="card"><div class="icon">🧪</div><h3>品質条件による制約</h3><p>粒度、粒形、不純物、塩分などの条件を満たす砂は限られ、存在する砂をすべて利用できるわけではありません。</p></div><div class="card"><div class="icon">♻️</div><h3>代替材料の普及の難しさ</h3><p>品質のばらつき、加工コスト、規格、供給量、施工実績などが普及の壁になります。</p></div><div class="card"><div class="icon">⚖️</div><h3>採取・流通管理の不足</h3><p>採取量の把握や監視が不十分だと、過剰採取や違法採取を防ぎにくくなります。</p></div><div class="card"><div class="icon">⛰️</div><h3>自然の土砂収支の変化</h3><p>上流から下流・海岸へ運ばれる土砂の量と採取量のバランスが崩れると、河床低下や海岸侵食につながります。</p></div></div>
+<div class="diagram"><h3>過剰採取が環境に及ぼす影響（概念図）</h3><div class="flow"><div class="node">砂の過剰採取</div><div class="arrow">→</div><div class="node">河床・海底の変化</div><div class="arrow">→</div><div class="node">水の流れ・濁りの変化</div><div class="arrow">→</div><div class="node blue">生態系・水資源・海岸への影響</div></div><p class="lead">具体的には、河床低下、河岸の侵食、生息環境の変化、地下水や取水への影響、海岸侵食などが報告されています。影響の程度は場所や採取方法によって異なります。</p></div>
+</div></section>
+
+<section class="section" id="impacts"><div class="wrap">
+<div class="kicker">03 / ENVIRONMENTAL IMPACTS</div><h2>砂の過剰採取がもたらす影響</h2>
+<p class="lead">砂は建設材料であるだけでなく、河川・海岸の地形を保ち、生物のすみかや水の循環を支える自然の一部です。採取場所・規模・方法によって影響は異なりますが、採取量が自然の土砂供給を上回ると問題が起こりやすくなります。</p>
+<div class="photo-panel">
+<figure class="illustration">
+<svg viewBox="0 0 640 300" role="img" aria-label="河川から砂を採取する様子の概念図">
+<rect width="640" height="300" fill="#dcefeb"/><path d="M0 65 Q140 20 260 75 T640 55 V300 H0Z" fill="#8cc7c3"/><path d="M0 210 Q130 165 250 205 T500 190 T640 205 V300 H0Z" fill="#d8bd88"/>
+<path d="M0 248 Q160 215 300 248 T640 235 V300 H0Z" fill="#ad8a58"/><path d="M0 40 Q120 8 240 45 T480 38 T640 25" fill="none" stroke="#fff" stroke-width="5" opacity=".7"/>
+<rect x="250" y="105" width="190" height="55" rx="12" fill="#596d70"/><rect x="385" y="75" width="42" height="40" rx="5" fill="#e7e2d6"/><path d="M285 108 L330 45 L355 45 L325 112" stroke="#bd8c43" stroke-width="10" fill="none"/><path d="M330 45 L360 45 L385 125" stroke="#bd8c43" stroke-width="6" fill="none"/><path d="M385 125 L385 177" stroke="#596d70" stroke-width="4"/><path d="M370 177 Q385 190 400 177" fill="none" stroke="#596d70" stroke-width="5"/>
+<g fill="#b98d51"><circle cx="120" cy="250" r="7"/><circle cx="145" cy="263" r="5"/><circle cx="175" cy="245" r="8"/><circle cx="485" cy="255" r="7"/><circle cx="515" cy="267" r="5"/></g>
+<g fill="#287b82"><path d="M60 180 q15 -20 30 0 q-15 18 -30 0"/><path d="M520 160 q15 -20 30 0 q-15 18 -30 0"/></g>
+<text x="24" y="28" fill="#174b50" font-size="17" font-weight="700">河川での砂採取（概念図）</text>
+</svg><figcaption>図：河川の砂採取を模式的に示したオリジナル図。実際の採取設備・地形とは異なる場合があります。</figcaption></figure>
+<figure class="illustration">
+<svg viewBox="0 0 640 300" role="img" aria-label="河床低下と河岸侵食の概念図">
+<rect width="640" height="300" fill="#eaf4f2"/><path d="M0 115 L120 115 L165 170 L215 185 L260 220 L350 220 L395 185 L455 170 L500 115 L640 115 V300 H0Z" fill="#c6a879"/>
+<path d="M0 105 L130 105 L185 165 L250 190 L385 190 L455 165 L510 105 L640 105 V175 L520 175 L465 225 L390 250 L245 250 L170 225 L115 175 L0 175Z" fill="#83c8c5"/>
+<path d="M0 115 L120 115 L165 170 L215 185 M425 185 L475 170 L520 115" fill="none" stroke="#805d3d" stroke-width="7"/>
+<path d="M245 190 L385 190" stroke="#805d3d" stroke-width="3" stroke-dasharray="7 6"/>
+<path d="M280 150 L280 215 M270 205 L280 218 L290 205" stroke="#b45f3c" stroke-width="5" fill="none"/>
+<text x="24" y="35" fill="#174b50" font-size="17" font-weight="700">河床低下・河岸侵食（概念図）</text>
+<text x="300" y="275" fill="#174b50" font-size="15">川底が低くなるイメージ</text>
+</svg><figcaption>図：土砂の持ち出しが続いた場合の河床形状変化を簡略化した概念図。</figcaption></figure>
+</div>
+<div class="grid">
+<div class="card"><div class="icon">↘</div><h3>① 河床低下・河岸侵食</h3><p>川底が掘り下がると、川岸や橋脚など周辺構造物の安定性に影響する場合があります。河道の形や流れ方も変化します。</p></div>
+<div class="card"><div class="icon">🐟</div><h3>② 生物のすみかの変化</h3><p>砂礫底にすむ魚・底生生物や水辺の植物の生息場所が失われたり、産卵・餌場の条件が変わったりします。</p></div>
+<div class="card"><div class="icon">〰</div><h3>③ 水質・濁りへの影響</h3><p>採取作業や河床の攪乱によって濁りが生じることがあります。濁りは水中の光環境や生物の活動に影響します。</p></div>
+<div class="card"><div class="icon">💧</div><h3>④ 地下水・取水への影響</h3><p>河床や河岸の形状が変わると、河川と地下水のつながりや水の利用に影響する可能性があります。影響は地質・水文条件に左右されます。</p></div>
+<div class="card"><div class="icon">🏖️</div><h3>⑤ 海岸侵食・防災機能の低下</h3><p>河川から海へ運ばれる土砂が減ると、海岸に供給される砂も減少し、海岸侵食や高潮・波浪に対する自然の緩衝機能の低下につながる場合があります。</p></div>
+<div class="card"><div class="icon">👥</div><h3>⑥ 地域社会・産業への影響</h3><p>漁業、水利用、農業、観光など、河川・海岸に依存する暮らしや産業にも影響が及ぶ可能性があります。</p></div>
+</div>
+<div class="note"><b>重要：</b>砂採取があれば必ず同じ被害が起きるわけではありません。自然の土砂供給量、採取位置・深さ・時期、河川の地形や生態系を調べ、場所ごとに判断する必要があります。UNEPは河川・沿岸・海洋の生態系での採取が侵食、帯水層の塩水化、生物多様性への影響などにつながり得ると整理しています。</div>
+</div></section>
+
+<section class="section" id="solutions"><div class="wrap"><div class="kicker">03 / SOLUTIONS</div><h2>大まかな解決方法</h2><p class="lead">天然砂の採取をただ止めるのではなく、代替材料の利用、コンクリート需要そのものの抑制、採取管理を組み合わせることが重要です。</p>
+<div class="grid"><div class="card"><span class="pill">代替材料</span><h3>① 砕砂を活用する</h3><p>岩石を砕いて粒度を整え、天然砂の代わりに利用します。粒が角張りやすいため、配合や施工性の調整が必要です。採石による環境負荷や製造エネルギーにも配慮します。</p></div><div class="card"><span class="pill">資源循環</span><h3>② 再生細骨材を使う</h3><p>解体コンクリートを破砕・磨砕・選別して再利用します。付着モルタルによる吸水率の増加や、塩化物・硫酸塩・不純物などを管理します。</p></div><div class="card"><span class="pill">代替材料</span><h3>③ 砂漠砂を調整して使う</h3><p>細かく丸い粒子が多い砂漠砂は、そのままでは適さない場合があります。他の砂との混合、粒度調整、配合設計によって利用可能性を検討します。</p></div><div class="card"><span class="pill">副産物利用</span><h3>④ 産業副産物を活用する</h3><p>銅スラグ、高炉スラグ、鋳物砂、ガラス破砕材、石材粉などを候補にします。化学的性質、溶出、安全性、アルカリシリカ反応（ASR）などの確認が必要です。</p></div><div class="card"><span class="pill">副産物利用</span><h3>⑤ 鉱山由来の砂を検討する</h3><p>鉱山の尾鉱などを資源として利用する研究があります。重金属や有害成分を含まないか、安全性を十分に評価する必要があります。</p></div><div class="card"><span class="pill">需要の抑制</span><h3>⑥ コンクリート使用量を減らす</h3><p>建物の長寿命化、適切な補修、設計の合理化、プレキャスト化、既存建物の改修・再利用、条件に応じた木造・鉄骨造の選択などで新たな需要を抑えます。</p></div><div class="card"><span class="pill">資源管理</span><h3>⑦ 採取を適切に管理する</h3><p>自然の土砂収支を調べ、採取可能量や場所を定めます。採取量の監視、環境影響評価、違法採取の防止、継続的なモニタリングを行います。</p></div></div>
+
+<div class="diagram"><h3>代替材料の比較</h3><p class="small">評価は一般的な傾向の整理です。実際の適性は材料の品質、配合、用途、地域の供給条件によって変わります。</p>
+<div class="tablewrap"><table><thead><tr><th>候補材料</th><th>期待できる利点</th><th>主な課題・確認事項</th><th>向いている検討</th></tr></thead><tbody>
+<tr><td>砕砂</td><td>岩石資源から製造でき、天然河川砂への依存を減らせる</td><td>角張りによる流動性・水量への影響、粉じん・騒音、破砕エネルギー、採石地の環境負荷</td><td>粒度・粒形を調整できる地域の標準的な代替候補</td></tr>
+<tr><td>再生細骨材</td><td>解体コンクリートを循環利用し、廃棄物と天然資源需要を同時に減らせる</td><td>付着モルタル、吸水率、品質変動、塩化物・硫酸塩・不純物、選別・処理コスト</td><td>解体・建設需要がまとまる都市部、品質管理設備がある地域</td></tr>
+<tr><td>砂漠砂</td><td>未利用の砂資源を活用できる可能性</td><td>細粒・丸みの強さによる粒度・かみ合わせの問題、運搬距離、洗浄・混合の負荷</td><td>他の骨材との混合や粒度調整を前提にした研究・試験</td></tr>
+<tr><td>スラグ・鋳物砂・ガラス等</td><td>副産物を資源化し、天然砂の代替と廃棄物削減を両立できる</td><td>発生源ごとの品質差、溶出・化学反応性、耐久性、規格適合性</td><td>発生源と利用先が近く、成分・性能を追跡できる場合</td></tr>
+<tr><tr><td>鉱山由来砂（ore-sand等）</td><td>鉱石処理の副産物を有効利用できる可能性</td><td>粒度調整、有害元素・溶出、安全性、安定供給と長期性能の検証</td><td>鉱山・選鉱施設周辺で、環境安全性の評価ができる場合</td></tr>
+</tbody></table></div></div>
+
+<div class="diagram"><h3>代替材料を選ぶときの判断手順</h3>
+<div class="method-list">
+<div class="method-item"><b>1｜用途を決める</b><p>構造物の種類、設計供用期間、曝露環境、求められる強度・耐久性を整理します。</p></div>
+<div class="method-item"><b>2｜原料と供給を確認</b><p>原料の発生源、量の安定性、輸送距離、季節変動、加工施設の有無を調べます。</p></div>
+<div class="method-item"><b>3｜品質試験・配合試験</b><p>粒度、粒形、吸水率、不純物、反応性を確認し、実際の配合で施工性・強度・耐久性を評価します。</p></div>
+<div class="method-item"><b>4｜環境・費用を比較</b><p>採取・破砕・洗浄・輸送・処理まで含むライフサイクルで、環境負荷と費用を比較します。</p></div>
+<div class="method-item"><b>5｜規格・仕様に適合</b><p>適用するJIS、発注者の仕様、必要な承認・品質管理体制を確認します。</p></div>
+<div class="method-item"><b>6｜施工後も確認</b><p>品質記録、耐久性、供給実績を蓄積し、次の工事や地域の標準化に生かします。</p></div>
+</div>
+<div class="note"><b>大切な考え方：</b>「天然砂を代替できるか」だけでなく、「必要な性能を満たし、環境負荷を全体として減らせるか」を判断基準にします。</div>
+</div>
+<div class="diagram"><h3>解決策は「組み合わせ」が基本</h3><div class="flow"><div class="node">天然砂の採取を抑える</div><div class="arrow">＋</div><div class="node">再生・代替材料を増やす</div><div class="arrow">＋</div><div class="node">コンクリート需要を抑える</div><div class="arrow">＋</div><div class="node blue">採取と環境を管理する</div></div><p class="lead">一つの材料だけで世界の需要を置き換えるのではなく、地域ごとの材料・品質・コストに応じて複数の対策を組み合わせます。</p></div>
+</div></section>
+<section class="section alt" id="research"><div class="wrap"><div class="kicker">04 / RESEARCH & PRACTICE</div><h2>先行研究・既存対策</h2><p class="lead">国際機関の報告書は砂資源の管理を、学術論文は河川生態系への影響や代替骨材の性能を扱っています。日本では再生骨材・再生骨材コンクリートのJIS規格などが整備されています。</p>
+
+<div class="research-card"><div class="meta">国際機関の政策報告｜2019</div><h3>UNEP, <i>Sand and Sustainability: Finding New Solutions for Environmental Governance of Global Sand Resources</i></h3>
+<p>世界の砂・砂利需要の拡大を背景に、砂資源の採取・利用を環境面から管理する必要性を示した報告書です。砂は建設材料としてだけでなく、河川・海岸の生態系や人々の暮らしを支える資源として扱われています。</p>
+<ul><li><b>本テーマとの関係：</b>砂の問題を「建設材料の不足」だけでなく、自然環境と資源管理の問題として捉える根拠になります。</li><li><b>示唆：</b>資源量の把握、採取管理、環境影響の評価を組み合わせる必要があります。</li></ul></div>
+<div class="research-card"><div class="meta">学術レビュー｜2020</div><h3>Koehnken et al., “Impacts of riverine sand mining on freshwater ecosystems”</h3>
+<p><i>River Research and Applications</i>, 36(3), 362–370. DOI: 10.1002/rra.3586</p>
+<ul><li><b>研究の種類：</b>既存の科学的知見を整理するレビュー論文。</li><li><b>扱う論点：</b>河床・河道の形態、水の流れや水質、淡水生態系への影響。</li><li><b>主な意義：</b>砂採取の影響は採取量だけでなく、河川の地形・水文・生態系の条件と結びついていることを理解する資料です。</li><li><b>限界：</b>世界各地の事例をまとめたレビューであり、すべての河川に同じ影響が生じると断定するものではありません。</li></ul></div>
+<div class="research-card"><div class="meta">国内学術論文｜2004</div><h3>麓隆行・山田優「再生細骨材の使用がコンクリートの性状に及ぼす影響とその原因について」</h3>
+<p>『土木学会論文集』767, 61–73. DOI: 10.2208/jscej.2004.767_61</p>
+<ul><li><b>研究の焦点：</b>再生細骨材を使用した場合のコンクリートの性状と、その変化に関係する要因。</li><li><b>本テーマとの関係：</b>再生細骨材は天然砂の代替候補ですが、単に置き換えればよいのではなく、再生骨材の品質とコンクリート性能の関係を把握する必要があることを示す研究例です。</li><li><b>活用上の注意：</b>具体的な数値や試験条件を引用する場合は、論文本文の表・図を直接確認してください。</li></ul></div>
+<div class="research-card"><div class="meta">国際機関の政策報告｜2022</div><h3>UNEP, <i>Sand and Sustainability: 10 Strategic Recommendations to Avert a Crisis</i></h3>
+<p>砂資源を持続可能に管理するための10項目を提言。砂を戦略的資源として認識すること、資源を地図化・監視・報告すること、再生・代替材の利用、責任ある調達、生態系の回復などを掲げています。</p>
+<ul><li><b>特に重要な提言：</b>砂の使用量を減らし、実行可能な代替材や再生材に置き換えること。</li><li><b>政策面の示唆：</b>採取許可・基準・監視だけでなく、地域住民や関係者を含めた意思決定が必要です。</li></ul></div>
+<div class="research-card"><div class="meta">学術レビュー｜2023</div><h3>Rifa et al., “A systematic comparison of performance of recycled concrete fine aggregates with other alternative fine aggregates”</h3>
+<p><i>Journal of Building Engineering</i>, 78, 107695. DOI: 10.1016/j.jobe.2023.107695</p>
+<ul><li><b>研究の種類：</b>再生コンクリート細骨材と他の代替細骨材の性能を体系的に比較するレビュー。</li><li><b>本テーマとの関係：</b>代替材料は一括りにせず、材料ごとにフレッシュ性状・強度・耐久性などの観点で比較して選ぶ必要があります。</li><li><b>活用上の注意：</b>個別材料の適用判断には、対象論文の配合条件・試験条件と利用目的を確認する必要があります。</li></ul></div>
+<div class="research-card"><div class="meta">学術レビュー｜2024</div><h3><i>Suitability of sustainable sand for concrete manufacturing – A complete review of recycled and desert sand substitution</i></h3>
+<p><i>Results in Engineering</i>, 23, 102478. DOI: 10.1016/j.rineng.2024.102478</p>
+<ul><li><b>研究の焦点：</b>再生砂と砂漠砂をコンクリート製造に利用する適合性を整理。</li><li><b>本テーマとの関係：</b>代替砂の採用には、粒度・粒形などの物理的性質だけでなく、配合設計や硬化後の性能を含めた評価が必要です。</li></ul></div>
+<div class="research-card"><div class="meta">国際機関の最新報告｜2026</div><h3>UNEP, <i>Sand and Sustainability: An Essential Resource for Nature and Development</i></h3>
+<p>砂の価値を建設用途に限らず、水の安全保障、食料システム、生物多様性、地域の暮らしなどの観点から捉え、長期計画・監視・循環利用を含む24の戦略的行動を示す報告書です。</p>
+<ul><li><b>本テーマとの関係：</b>2022年の提言をさらに発展させ、砂を自然環境の中に残す価値や、生物多様性を意思決定に組み込む重要性を強調しています。</li><li><b>位置づけ：</b>2026年版の新しい政策資料として、最新の国際的な議論を確認する入口になります。</li></ul></div>
+<h3>日本の既存規格・対策</h3><div class="grid"><div class="card"><h3>JIS A 5021:2024</h3><p>再生骨材Hに関する規格。再生骨材そのものの品質を扱います。</p></div><div class="card"><h3>JIS A 5022:2024</h3><p>再生骨材コンクリートMに関する規格です。</p></div><div class="card"><h3>JIS A 5023:2024</h3><p>再生骨材コンクリートLに関する規格です。</p></div></div>
+
+<div class="diagram"><h3>日本で考えるときのポイント</h3>
+<p>日本では、骨材の調達先や使用できる材料は地域・工事用途によって異なります。天然骨材だけに依存せず、砕砂・砕石、スラグ骨材、再生骨材などを品質規格と工事仕様に沿って使い分けることが重要です。</p>
+<div class="grid">
+<div class="card"><h3>規格で品質を確認</h3><p>JISは材料の品質や試験方法を定める基盤です。規格に適合することと、すべての用途に無条件で使えることは同じではありません。</p></div>
+<div class="card"><h3>用途ごとの使い分け</h3><p>構造物の重要度、耐久性、環境条件、施工方法に応じて、使用可能な骨材の種類や品質区分を確認します。</p></div>
+<div class="card"><h3>地域内で循環</h3><p>解体現場から出るコンクリートを地域の再生処理施設で骨材化し、近隣の建設工事で利用できれば、輸送負荷を抑える可能性があります。</p></div>
+</div>
+<p class="small">このページでは、日本全体の天然砂消費量や再生細骨材の普及率について、出典を確認できない数値は掲載していません。数値を追加する場合は、国土交通省・経済産業省・業界統計などの一次資料を確認する必要があります。</p>
+</div>
+<div class="note"><b>規格の区別：</b>JIS A 5021は再生骨材そのものの規格、JIS A 5022・A 5023は再生骨材コンクリートの規格です。実際の適用では、用途・品質区分・最新版の規格本文を確認してください。</div>
+<p>国土交通省の土木工事共通仕様書では、砕石・砕砂（JIS A 5005）、スラグ骨材（JIS A 5011各部）、再生骨材H（JIS A 5021）などに関係する規定が示されています。現場での採用は、工事仕様や用途に応じた確認が必要です。</p>
+</div></section>
+<section class="section" id="challenges"><div class="wrap"><div class="kicker">05 / NEXT CHALLENGES</div><h2>今後の課題</h2><div class="two"><div><h3>品質と安定供給</h3><p class="lead">代替材料の品質を安定させ、地域ごとの供給網や加工設備を整える必要があります。</p><h3>環境負荷の総合評価</h3><p class="lead">採取量だけでなく、破砕・運搬・洗浄などのエネルギーやCO₂排出も含め、ライフサイクル全体で評価します。</p></div><div><h3>規格・施工実績の整備</h3><p class="lead">用途に応じた品質基準、試験方法、設計・施工の知見を蓄積し、安心して使える環境を整えます。</p><h3>国際的な資源管理</h3><p class="lead">砂の採取・流通を把握し、環境保全と資源利用を両立するルールや監視体制を強化します。</p></div></div><div class="diagram"><h3>まとめ：目指す方向</h3><div class="flow"><div class="node">必要な砂を見極める</div><div class="arrow">→</div><div class="node">代替・再生材料を使う</div><div class="arrow">→</div><div class="node">建物を長く使う</div><div class="arrow">→</div><div class="node blue">自然環境と建設需要を両立</div></div></div><p class="lead"><b>結論：</b>コンクリート用砂の問題を解決するには、天然砂を必要最小限に抑え、再生・代替材料の活用、コンクリート使用量の削減、採取管理を組み合わせることが重要です。</p></div></section>
+
+<section class="section alt" id="glossary"><div class="wrap">
+<div class="kicker">07 / GLOSSARY</div><h2>用語集</h2>
+<p class="lead">本文に出てくる専門用語を簡潔に説明します。上部の検索窓からも用語を探せます。</p>
+<div class="glossary-grid">
+<div class="glossary-item"><h3>骨材</h3><p>コンクリートの体積の大部分を占める粒状材料。砂などの細骨材と、砂利・砕石などの粗骨材があります。</p></div>
+<div class="glossary-item"><h3>細骨材</h3><p>一般に粒径の小さい骨材。コンクリートでは砂が代表例です。粒度や不純物などの品質が重要です。</p></div>
+<div class="glossary-item"><h3>粗骨材</h3><p>砂利や砕石など、細骨材より大きな粒径の骨材です。</p></div>
+<div class="glossary-item"><h3>砕砂</h3><p>岩石を機械で破砕・整粒して製造する細骨材です。</p></div>
+<div class="glossary-item"><h3>再生細骨材</h3><p>解体コンクリートなどを処理し、再び細骨材として利用する材料です。</p></div>
+<div class="glossary-item"><h3>粒度分布</h3><p>材料に含まれる粒子の大きさごとの割合。骨材の詰まり方や施工性に関係します。</p></div>
+<div class="glossary-item"><h3>ワーカビリティー</h3><p>練混ぜたコンクリートの、運搬・打込み・締固めなどの作業のしやすさを表す性質です。</p></div>
+<div class="glossary-item"><h3>単位水量</h3><p>コンクリート1立方メートルあたりに含まれる水の量。骨材の性質や配合に関係します。</p></div>
+<div class="glossary-item"><h3>吸水率</h3><p>骨材が水を吸収する割合。再生骨材では付着モルタルや内部空隙の影響を受けます。</p></div>
+<div class="glossary-item"><h3>アルカリシリカ反応（ASR）</h3><p>骨材中の反応性シリカとコンクリート中のアルカリ等が関係して膨張を生じることがある反応です。</p></div>
+<div class="glossary-item"><h3>土砂収支</h3><p>ある範囲に入ってくる土砂、外へ出る土砂、内部に堆積・移動する土砂の量の関係です。</p></div>
+<div class="glossary-item"><h3>河床低下</h3><p>河川の底面が長期的に低くなる現象。土砂供給と流出・採取のバランスが関係します。</p></div>
+<div class="glossary-item"><h3>河岸侵食</h3><p>水の流れなどによって川岸が削られる現象です。</p></div>
+<div class="glossary-item"><h3>ライフサイクル評価（LCA）</h3><p>原料採取から製造、輸送、使用、廃棄・再利用までの環境負荷を総合的に評価する考え方です。</p></div>
+<div class="glossary-item"><h3>尾鉱</h3><p>鉱石から有用な成分を取り出した後に残る鉱物質の副産物です。利用時には安全性評価が欠かせません。</p></div>
+<div class="glossary-item"><h3>スラグ骨材</h3><p>製鉄などの工程で発生するスラグを加工して骨材として利用する材料です。</p></div>
+<div class="glossary-item"><h3>JIS</h3><p>日本産業規格。材料や製品、試験方法などについて、品質や方法を標準化する規格です。</p></div>
+<div class="glossary-item"><h3>環境ガバナンス</h3><p>行政、企業、地域社会などが、環境資源を適切に管理するための制度・ルール・意思決定の仕組みです。</p></div>
+</div>
+</div></section>
+
+<section class="section alt" id="references"><div class="wrap"><div class="kicker">06 / REFERENCES</div><h2>参考文献・資料</h2><ol class="refs"><li>UNEP (2019), <i>Sand and Sustainability: Finding New Solutions for Environmental Governance of Global Sand Resources</i>. <a href="https://www.unep.org/resources/report/sand-and-sustainability-finding-new-solutions-environmental-governance-global" target="_blank" rel="noopener">UNEP公式ページ</a></li><li>UNEP (2026), <i>Sand and Sustainability: An Essential Resource for Nature and Development</i>. <a href="https://wedocs.unep.org/items/b037d0d7-b899-4969-9b9a-b5c36dd32abe" target="_blank" rel="noopener">UNEP公式資料</a></li><li>UNEP (2022), <i>Sand and Sustainability: 10 Strategic Recommendations to Avert a Crisis</i>. <a href="https://www.unep.org/resources/report/sand-and-sustainability-10-strategic-recommendations-avert-crisis" target="_blank" rel="noopener">UNEP公式ページ</a></li><li>Koehnken, L. et al. (2020), “Impacts of riverine sand mining on freshwater ecosystems: A review of the scientific evidence and guidance for future research,” <i>River Research and Applications</i>, 36(3), 362–370. <a href="https://doi.org/10.1002/rra.3586" target="_blank" rel="noopener">DOI: 10.1002/rra.3586</a></li><li>麓隆行・山田優（2004）「再生細骨材の使用がコンクリートの性状に及ぼす影響とその原因について」『土木学会論文集』767, 61–73. <a href="https://doi.org/10.2208/jscej.2004.767_61" target="_blank" rel="noopener">DOI: 10.2208/jscej.2004.767_61</a></li><li>Rifa, A. et al. (2023), “A systematic comparison of performance of recycled concrete fine aggregates with other alternative fine aggregates…,” <i>Journal of Building Engineering</i>, 78, 107695. <a href="https://doi.org/10.1016/j.jobe.2023.107695" target="_blank" rel="noopener">DOI: 10.1016/j.jobe.2023.107695</a></li><li>“Suitability of sustainable sand for concrete manufacturing - A complete review of recycled and desert sand substitution” (2024), <i>Results in Engineering</i>, 23, 102478. <a href="https://doi.org/10.1016/j.rineng.2024.102478" target="_blank" rel="noopener">DOI: 10.1016/j.rineng.2024.102478</a></li><li>日本産業標準調査会・日本規格協会：JIS A 5021:2024、JIS A 5022:2024、JIS A 5023:2024。規格情報は各規格の最新版を確認してください。</li><li>国土交通省「土木工事共通仕様書」骨材に関する規定。 <a href="https://www.mlit.go.jp/" target="_blank" rel="noopener">国土交通省公式サイト</a></li></ol><p class="lead">環境影響・政策提言の確認資料：<a href="https://www.unep.org/en/news-and-stories/press-release/our-use-sand-brings-us-against-wall-says-unep-report" target="_blank" rel="noopener">UNEP（2022）の解説</a>、<a href="https://wedocs.unep.org/items/9ec225c4-5a9f-44d0-a560-46e0c8264003" target="_blank" rel="noopener">UNEP（2022）報告書</a>、<a href="https://wedocs.unep.org/items/b037d0d7-b899-4969-9b9a-b5c36dd32abe" target="_blank" rel="noopener">UNEP（2026）報告書</a>。<br>※このページは学習用の概要です。数値や規格の適用条件をレポート・設計・施工に使う場合は、原典および最新版を確認してください。</p></div></section>
+<section class="section"><div class="wrap"><h2>このサイトの読み方・情報の限界</h2><p class="lead">世界の砂・砂利需要の数値は、対象範囲や推計方法が資料によって異なります。世界全体の砂・砂利の総量を、コンクリート用砂だけの量と読み替えないでください。また、研究レビューは複数の研究を整理したもので、特定地域の採取量や特定配合の性能を直接保証するものではありません。規格は改正されるため、実務で使う場合は必ず最新版の本文と発注仕様書を確認してください。</p></div></section></main><footer class="footer"><div class="wrap">SAND × CONCRETE — コンクリート用砂の資源問題を学ぶ<br>学習用解説ページ｜図は内容理解のための概念図です。<a class="backtop" href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">ページ上部へ ↑</a></div></footer>
+
+<script>
+(() => {
+ const input=document.getElementById('siteSearch');
+ const clear=document.getElementById('searchClear');
+ const status=document.getElementById('searchStatus');
+ const results=document.getElementById('searchResults');
+ if(!input||!clear||!status||!results)return;
+ const searchable=[...document.querySelectorAll('main h1, main h2, main h3, main h4, main p, main li, main td, main th, .glossary-item')];
+ const norm=s=>(s||'').toLocaleLowerCase('ja').normalize('NFKC').trim();
+ let lastQuery='';
+ function clearMarks(){document.querySelectorAll('mark.search-hit').forEach(m=>m.replaceWith(document.createTextNode(m.textContent))); }
+ function runSearch(){
+  clearMarks(); results.innerHTML='';
+  const q=norm(input.value); lastQuery=q;
+  if(!q){status.textContent='ページ内の見出し・本文・表・用語集を検索できます。';return;}
+  const terms=q.split(/\s+/).filter(Boolean);
+  const hits=[];
+  searchable.forEach(el=>{
+   const text=norm(el.innerText||el.textContent);
+   if(terms.every(t=>text.includes(t))) hits.push(el);
+  });
+  status.textContent=hits.length ? `「${input.value}」の検索結果：${hits.length}件` : `「${input.value}」に一致する語句は見つかりませんでした。`;
+  hits.slice(0,30).forEach((el,i)=>{
+   const section=el.closest('section');
+   const heading=section?.querySelector('h2')?.innerText||'ページ本文';
+   const a=document.createElement('a');
+   a.href='#'+(el.id||'');
+   a.textContent=`${i+1}. ${heading} — ${(el.innerText||el.textContent).trim().replace(/\s+/g,' ').slice(0,110)}`;
+   a.addEventListener('click',ev=>{
+    ev.preventDefault();
+    el.scrollIntoView({behavior:'smooth',block:'center'});
+    el.setAttribute('tabindex','-1');el.focus({preventScroll:true});
+    if(el.id)history.replaceState(null,'','#'+el.id);
+   });
+   const box=document.createElement('div');box.className='search-result';box.appendChild(a);results.appendChild(box);
+  });
+  if(hits.length>30){const more=document.createElement('p');more.textContent=`ほか ${hits.length-30} 件あります。検索語を追加して絞り込んでください。`;results.appendChild(more);}
+ }
+ input.addEventListener('input',runSearch);
+ input.addEventListener('keydown',e=>{if(e.key==='Enter'){runSearch();results.querySelector('a')?.click();}});
+ clear.addEventListener('click',()=>{input.value='';runSearch();input.focus();});
+ document.querySelectorAll('.quick-search').forEach(b=>b.addEventListener('click',()=>{input.value=b.dataset.q;runSearch();}));
+})();
+</script>
+
+</body></html>
